@@ -173,11 +173,11 @@ Run similarity join as mentioned before.
 
 * You can replace the following files in the PostgreSQL package with 
 the files in `\extending-by-core-modification\modified-files` before installation:
-`\postgresql-10.4\src\backend\utils\adt\oracle_compat.c`
-`\postgresql-10.4\src\backend\utils\fmgroids.h`
-`\postgresql-10.4\src\backend\utils\fmgrprotos.h`
-`\postgresql-10.4\src\backend\utils\fmgrtab.c`
-`\postgresql-10.4\src\include\catalog\pg_proc.h`
+    + `\postgresql-10.4\src\backend\utils\adt\oracle_compat.c`
+    + `\postgresql-10.4\src\backend\utils\fmgroids.h`
+    + `\postgresql-10.4\src\backend\utils\fmgrprotos.h`
+    + `\postgresql-10.4\src\backend\utils\fmgrtab.c`
+    + `\postgresql-10.4\src\include\catalog\pg_proc.h`
 
 * You can simply install the modified PostgreSQL package in `\extending-by-core-modification\modified-package`
 
